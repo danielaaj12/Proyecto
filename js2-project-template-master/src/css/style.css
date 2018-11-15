@@ -1,68 +1,28 @@
-/* Generales */
+/*General*/
 body{
+    background-color: rgb(101, 170, 80);
+    margin: 0 auto;
     font-family:'Titillium Web', sans-serif;
-  }
-  
-  h1::before{
-    content: "";
-    display: inline-block;
-    width: 50px;
-    height: 3px;
-    background-color: coral;
-    margin-bottom: 10px;
-    margin-right: 10px
-  }
-  
-  h1::after{
-    content: "";
-    display: inline-block;
-    width: 50px;
-    height: 3px;
-    background-color: coral;
-    margin-bottom: 10px;
-    margin-left: 10px;
-  }
-  
-  h4{
-    border-bottom: 2px solid coral;
-    width: 40%;
-  }
-  
-  /* Final de Generales */
-  
-  /* titulo */
-  .titulo{
-    font-size: 40px;
-    text-align:center;
-    margin-bottom:5%;
-  }
-  
-  .titulo::before{
-    content: "";
-    display: inline-block;
-    width: 50px;
-    height: 3px;
-    background-color: coral;
-    margin-bottom: 10px;
-    margin-right: 10px
-  }
-  
-  .titulo::after{
-    content: "";
-    display: inline-block;
-    width: 50px;
-    height: 3px;
-    background-color: coral;
-    margin-bottom: 10px;
-    margin-left: 10px
-  }
-  /* Fin titulo */
-  
-  /* Barra Buscadora */
-  #buscador{
-    margin-right: 18%;
-    padding-bottom: 2%;
+}
+
+h1{
+    text-align: center;
+    margin: 95px;
+    color: rgb(17, 7, 1);
+    margin-top: 12px;
+    font-family: 'Carter One', cursive;
+
+}
+
+#contenedor{
+    padding: 200px;
+}
+#buscador{
+    margin-left:18px;
+    padding-bottom: 1px;
     float: right;
+    padding-left: 12px;
+    margin-right: 200px;
   }
   
   form{
@@ -71,15 +31,15 @@ body{
   
   fieldset{
     background-color: #fff;
-    border: 1px solid coral;
+    border: 1px solid rgb(5, 4, 4);
     border-radius: 5px;
   }
   
   #space, #btn{
     position: relative;
-    width: 200px;
-    height: 50px;
-    padding: 0;
+    width: 187px;
+    height: 26px;
+    padding: 8px;
   }
   
   #space{
@@ -89,8 +49,7 @@ body{
   }
   
   #btn{
-    margin-top: 1%;
-    background-color: coral;
+    margin-top: 1px;
     font-size: 1.5em;
     width: 60px;
     border: none;
@@ -99,74 +58,34 @@ body{
   .fa-search{
     color:white;
   }
-  /* Final Barra Buscadora */
-  
-  /* Sidebar */
-  #sidebar{
-    width: 45%;
-    height: 700px;
-    overflow: scroll;
-    float: left;
+
+  .contenedor{
+     margin-left: 300px;
+     padding: 70px;
   }
-  
-  #sidebar::-webkit-scrollbar{
-    width: 7px;
+
+  #botón{
+      background: none;
+      border-color: black;
   }
-  
-  #sidebar::-webkit-scrollbar-thumb{
-    background-color: coral;
-    border-radius: 5px;
+  .img{
+    margin: 0 auto;
+    margin-left: 570px;
   }
-  
-  /* Tamaños de lña imagenes */
-  .imagenes{
-    width: 50%;
-    height: 30%;
-  }
-  .imagenes2{
-    width: 53%;
-    height: 40%;
-  }
-  .imagenes3{
-    width: 53.5%;
-    height: 40%;
-  }
-  
-  .imagenes4{
-    width: 51%;
-    height: 40%;
-  }
-  
-  .imagenes5{
-    width: 56.5%;
-    height: 40%;
-  }
-  
-  .imagenes6{
-    width: 54%;
-    height: 40%;
-  }
-  
-  .imagenes7{
-    width: 50.5%;
-    height: 40%;
-  }
-  
-  .imagenes8{
-    width: 56%;
-    height: 40%;
-  }
-  
-  .cajas{
-    width: 48%;
-    display: inline-block;
+
+  h4,p{
     text-align: center;
-    border: 1px solid coral;
-    margin-bottom: 1%;
+    margin: 0 auto;
+    padding: 50px;
+  
   }
-  /* Final del Sidebar */
-  #informacion{
-    width: 45%;
-    float: right;
-    margin-right: 5%;
+
+  h1{
+    color:white;
   }
+
+  .tittle{
+    color: black;
+  }
+
+
